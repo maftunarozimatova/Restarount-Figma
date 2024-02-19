@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    /* font-family: "Cormorant Upright", serif; */
+    font-family: "Open Sans", sans-serif;
+}
+.conteiner{
+    width: 100%;
+    height: 100%;
+}
+.conteiner header{
+    width: 100%;
+    height: 680px;
+    background-color: #0C0B08 ;
+    position: relative;
+}
+.conteiner header nav{
+    width: 100%;
+    height: 90px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+}
+.conteiner header nav .logo img{
+    width: 130px;
+}
+.conteiner header nav .navlinks ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.conteiner header nav .navlinks ul li a{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+.conteiner header nav .logIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.conteiner header nav .logIn span{
+    height: 40px;
+    border-left: 1px solid #fff;
+}
+.conteiner header nav .logIn a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* Header content */
+
+.conteiner header .headerContent{
+    width: 80%;
+    height: 75%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.conteiner header .headerContent .header_title{
+    width: 40%;
+    height: 100%;
+}
+.conteiner header .headerContent .header_img{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.conteiner header .headerContent .header_img .img_top{
+    width: 65%;
+    height: 55%;
+    background-color: #DCCA87;
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: img 7s linear infinite;
+}
+.conteiner header .headerContent .header_img .img_bottom{
+    width: 65%;
+    height: 55%;
+    background-color: #DCCA87;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: img1 7s linear infinite;
+}
+.conteiner header .headerContent .header_img img{
+    width: 94%;
+    height: 94%;
+    z-index: 100;
+    position: relative;
+    left: 3%;
+    top: 3%;
+    object-fit: cover;
+}
+.conteiner header .headerContent .header_title{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+.conteiner header .headerContent .header_title .p_text{
+    font-family: "Cormorant Upright", serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.conteiner header .headerContent .header_title img{
+    object-fit: cover;
+    width: 40px;
+    position: relative;
+    top: -8px;
+}
+.conteiner header .headerContent .header_title h1{
+    font-family: "Cormorant Upright", serif;
+    color: #DCCA87;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 80px;
+}
+.conteiner header .headerContent .header_title p{
+    font-size: 14 px;
+    text-align: left;
+    color: #aaa;
+    line-height: 25px;
+    margin-bottom: 15px ;
+}
+.conteiner header .headerContent .header_title a{
+    font-family: "Cormorant Upright", serif;
+    border: 1px solid transparent;
+    padding: 8px 32px;
+    color: #000;
+    background-color: #DCCA87;
+    font-weight: 500;
+}
+.conteiner header .hashtags{
+    width: 120px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 50%;
+    gap: 30px;
+}
+.conteiner header .hashtags span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.conteiner header p{
+    text-align: center;
+    color: #F5EFDF;
+    font-size:18px;
+    font-weight: 500 ;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+/* about */
+
+.conteiner .about{
+    width: 100%;
+    height: 600px;
+    background: url(./images/BG.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -20;
+}
+.conteiner .about .g{
+    width: 300px;
+    height: 400px;
+    background: url(./images/G.png) no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -40%);
+}
+
+.conteiner .about .about_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.conteiner .about .about_box .about_center img{
+    height: 480px;
+}
+.conteiner .about .about_box .about_left{
+    text-align: right;
+    width: 40%;
+}
+.conteiner .about .about_box .about_right{
+    width: 40%;
+}
+.conteiner .about .about_box  h1{
+    font-size: 65px ;
+    color: #DCCA87 ;
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+}
+.conteiner .about .about_box .about_left img{
+    transform: rotateZ(180deg);
+    position: relative;
+    top: -15px;
+    width: 40px;
+    object-fit: cover;
+}
+.conteiner .about .about_box .about_right img{
+    position: relative;
+    top: -15px;
+    width: 40px;
+    object-fit: cover;
+}
+.conteiner .about .about_box p{
+    color: #AAA;
+    font-size: 14px;
+    line-height: 25px ;
+    margin-bottom: 25px;
+}
+.conteiner .about .about_box a{
+    font-family: "Cormorant Upright", serif;
+    border: 1px solid transparent;
+    padding: 8px 32px;
+    color: #000;
+    background-color: #DCCA87;
+    font-weight: 500;
+}
+.conteiner .about::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000081;
+    z-index: -18;
+}
+
+/* book */
+
+.conteiner .book{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: #0C0B08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner .book .book_logo{
+    width: 120px;
+    height: 120px;
+    background: url(./images/spoons.png) no-repeat;
+    background-size: cover;
+    background-size: cover ;
+    position: absolute;
+    top: -20px;
+    right: 70px;
+    animation: spoon 7s linear infinite;
+}
+.conteiner .book .book_box{
+    width: 70%;
+    height: 300px;
+    background-color: #0C0C0C;
+    box-shadow: 22px 30px 95px 1px #000000B2 ;
+    text-align: center;
+    padding: 30px 20px;
+}
+.conteiner .book .book_box h3{
+    font-size: 22px;
+    font-family: "Cormorant Upright", serif;
+    color: white;
+    letter-spacing: 3px;
+}
+.conteiner .book .book_box img{
+    width: 30px;
+}
+.conteiner .book .book_box h1{
+    font-size: 50px;
+    font-family: "Cormorant Upright", serif;
+    color: #DCCA87;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.conteiner .book .book_box form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.conteiner .book .book_box form select{
+    width: 32%;
+    height: 45px;
+    color: white;
+    background-color: #0C0C0C;
+    font-family: "Cormorant Upright", serif;
+    font-size: 16px;
+}
+.conteiner .book .book_box a{
+    font-family: "Cormorant Upright", serif;
+    border: 1px solid transparent;
+    padding: 8px 32px;
+    color: #000;
+    background-color: #DCCA87;
+    font-weight: 500;
+}
+
+/* Menu */
+
+.conteiner .menu{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background: url(./images/bakal.jpg) no-repeat;
+    background-size: cover;
+}
+.conteiner .menu .menu_logo{
+    width: 120px;
+    height: 120px;
+    background: url(./images/spoons.png) no-repeat;
+    background-size: cover ;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    animation: spoon 7s linear infinite;
+}
+.conteiner .menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 100% ;
+    margin-left: 60px;
+}
+.conteiner .menu ul li{
+    margin-bottom: 20px ;
+}
+.conteiner .menu ul li a{
+    font-size: 50px;
+    font-family: "Cormorant Upright", serif;
+    color: #fff;
+    position: relative;
+}
+.conteiner .menu ul li a::before{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s all linear;
+}
+.conteiner .menu ul li a:hover::before{
+    width: 100%;
+}

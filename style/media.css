@@ -1,0 +1,219 @@
+@media screen and (max-width: 375px) {
+    body {
+      background-color: red;
+    }
+  
+    .conteiner nav .navlinks {
+      display: none;
+    }
+  
+    .conteiner header nav .logIn {
+      display: none;
+    }
+  
+    .conteiner header nav .menuLogo {
+      display: block;
+    }
+  
+    .conteiner header nav .menuLogo i {
+      font-size: 40px;
+      color: #fff;
+    }
+  
+    .conteiner header .headerContent {
+      flex-direction: column;
+    }
+    .conteiner header .headerContent .header_title {
+      width: 90%;
+    }
+  
+    .conteiner header .headerContent .header_title h1 {
+      font-size: 45px;
+      text-align: center;
+    }
+  
+    .conteiner header .headerContent .header_title .p_text {
+      display: none;
+    }
+  
+    .conteiner header .headerContent .header_title img {
+      display: none;
+    }
+  
+    .conteiner header .headerContent .header_title p {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  
+    .conteiner header .headerContent .header_title a {
+      padding: 8px 90px;
+    }
+  
+    .conteiner header .hashtags {
+      left: -35px;
+      top: 40%;
+      width: 100px;
+    }
+  
+    .conteiner header .hashtags span {
+      font-size: 14px;
+    }
+  
+    .conteiner header .headerContent .header_img {
+      width: 100%;
+    }
+  
+    .conteiner header .headerContent .header_img .img_top {
+      animation: none;
+    }
+  
+    .conteiner header .headerContent .header_img .img_bottom {
+      animation: none;
+      bottom: -5px;
+    }
+    .conteiner header .headerContent .header_img .img_top {
+      animation: none;
+      top: -10px;
+    }
+  
+    /* about */
+  
+    .conteiner .about .about_box {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .conteiner .about {
+      height: 100%;
+      padding: 30px 0;
+    }
+    .conteiner .about .about_box .about_center img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: -5;
+      transform: translate(-50%, -50%);
+      opacity: 0.7;
+    }
+  
+    .conteiner .about .about_box .about_left {
+      width: 90%;
+      height: 100%;
+      text-align: center;
+      border: 1px solid #f5efdb;
+      background-color: #f5efdb38;
+      position: relative;
+      top: 0;
+      z-index: 20;
+    }
+  
+    .conteiner .about .about_box .about_left h1 {
+      font-size: 50px;
+    }
+  
+    .conteiner .about .about_box .about_left a {
+      position: relative;
+      top: -15px;
+    }
+  
+    .conteiner .about .about_box .about_left p {
+      font-size: 12px;
+    }
+  
+    .conteiner .about .about_box .about_right {
+      width: 90%;
+      height: 100%;
+      text-align: center;
+      border: 1px solid #f5efdb;
+      background-color: #f5efdb38;
+      position: relative;
+      top: 0;
+      z-index: 20;
+    }
+  
+    .conteiner .about .about_box .about_right h1 {
+      font-size: 50px;
+    }
+  
+    .conteiner .about .about_box .about_right a {
+      position: relative;
+      top: -15px;
+    }
+  
+    .conteiner .about .about_box .about_right p {
+      font-size: 12px;
+    }
+  
+    /* book */
+  
+    .conteiner .book .book_box {
+      width: 90%;
+      height: 90%;
+      padding: 10px 0;
+    }
+  
+    .conteiner .book .book_box form {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .conteiner .book .book_box form select {
+      width: 90%;
+    }
+  
+    .conteiner .book .book_box a {
+      position: relative;
+      top: -10px;
+      padding: 8px 118px;
+    }
+  
+    .conteiner .book .book_logo {
+      width: 80px;
+      height: 80px;
+      right: 20px;
+      top: -20px;
+    }
+  
+    /* menu */
+  
+    .conteiner .menu {
+      width: 100%;
+      background-size: cover;
+      background-position: center 120%;
+      position: relative;
+    }
+  
+    .conteiner .menu::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: #0000007b;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    .conteiner .menu ul  {
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      left: -10%;
+    }
+  
+    .conteiner .menu .menu_logo {
+      width: 80px;
+      height: 80px;
+      left: 20px;
+      top: -10px;
+    }
+  
+  
+  
+  
+  
+  }

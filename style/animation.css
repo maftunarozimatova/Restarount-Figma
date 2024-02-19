@@ -1,0 +1,47 @@
+@keyframes  spoon {
+    0%{
+        transform: rotateZ(-360deg);
+    }
+    50%{
+        transform: rotateZ(-180deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
+@keyframes img {
+    0% {
+      transform: translate(0);
+    }
+    30% {
+      transform: translate(0, 215px);
+    }
+    50% {
+      transform: translate(-155px, 235px);
+    }
+    80% {
+      transform: translate(-150px, 0px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  @keyframes img1 {
+    0% {
+      transform: translate(0);
+    }
+    30% {
+      transform: translate(0, -215px);
+    }
+    50% {
+      transform: translate(155px, -235px);
+    }
+    80% {
+      transform: translate(150px, 0px);
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
